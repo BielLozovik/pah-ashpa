@@ -1,68 +1,91 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>הוויזואליזציה הראשונה שלי</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #0078d4;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #0078d4;
-        }
-        .button {
-            background-color: #0078d4;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        .tableau-container {
-            margin-top: 20px;
-        }
-    </style>
+<title>הוויזואליזציה הראשונה שלי</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+section {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tableau-container {
+  width: 100%;
+  height: 600px; /* Adjust as needed */
+}
+</style>
 </head>
 <body>
-    <header>
-        <h1>הוויזואליזציה הראשונה שלי</h1>
-    </header>
-    <div class="container">
-        <h2>פרויקט Tableau שאפתני</h2>
-        <p>זהו הפרויקט הראשון שלי ב-Tableau, שבו חקרתי נתוני מכירות של חברה גלובלית. המטרה הייתה להבין את מגמות המכירות, לזהות אזורים מובילים ולנתח את ביצועי המוצרים.</p>
-        <p>הנתונים כללו מידע על מכירות לפי מדינה, קטגוריית מוצרים, תאריך ועוד. באמצעות Tableau, יצרתי דאשבורד אינטראקטיבי המאפשר למשתמשים לחקור את הנתונים בצורה ויזואלית ואינטואיטיבית.</p>
-        <h2>ניתוח נתונים עיקריים</h2>
-        <ul>
-            <li>מכירות לפי אזור: צפון אמריקה מובילה במכירות.</li>
-            <li>קטגוריית מוצרים: קטגוריית "טכנולוגיה" היא הרווחית ביותר.</li>
-            <li>מגמות מכירות: עלייה משמעותית במכירות ברבעון הרביעי.</li>
-        </ul>
-        <button class="button">הורדת דוח PDF</button>
-        <button class="button">צפייה בנתונים המלאים</button>
-        <div class="tableau-container">
-            <div class='tableauPlaceholder' id='viz1702456789123' style='position: relative'><noscript><a href='#'><img alt='Dashboard2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17411174517280&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;' /><param name='name' value='Book1_17411174517280&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17411174517280&#47;Dashboard2&#47;1_rss.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_tab' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1702456789123');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        </div>
-    </div>
+
+<header>
+  <h1>הוויזואליזציה הראשונה שלי</h1>
+</header>
+
+<section>
+  <h2>פרויקט שאפתני ב-Tableau</h2>
+  <p>
+    זהו הפרויקט הראשון שלי ב-Tableau, שבו חקרתי נתוני מכירות של חברת "טכנולוגיות העתיד".
+    הנתונים כוללים מידע על מוצרים, לקוחות, ומיקומים גיאוגרפיים.
+  </p>
+  <p>
+    הוויזואליזציה מאפשרת לנתח מגמות מכירות, להשוות ביצועים בין מוצרים שונים, ולזהות אזורים עם ביצועים גבוהים או נמוכים.
+  </p>
+
+  <h2>ניתוח מגמות מכירות</h2>
+  <p>
+    הגרף הבא מציג את מגמת המכירות לאורך זמן. ניתן לראות עליות וירידות עונתיות, וכן מגמת צמיחה כללית.
+  </p>
+  <div class="tableau-container">
+    <div class='tableauPlaceholder' id='viz1702558667503' style='position: relative'><noscript><a href='#'><img alt='Dashboard2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17411174517280&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;' /><param name='name' value='Book1_17411174517280&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17411174517280&#47;Dashboard2&#47;1_rss.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_tab' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1702558667503');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  </div>
+
+  <h2>השוואת ביצועים בין מוצרים</h2>
+  <p>
+    התרשים הבא מציג את נתוני המכירות של כל מוצר. ניתן לראות אילו מוצרים מובילים במכירות, ואילו מוצרים דורשים שיפור.
+  </p>
+  <p>
+    <a href="#" class="button">הורד את הנתונים</a>
+    <a href="#" class="button">שתף את הוויזואליזציה</a>
+  </p>
+</section>
+
 </body>
 </html>
